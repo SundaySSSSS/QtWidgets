@@ -30,6 +30,6 @@ void Widget::on_pushButton_showIPAddressWidget_clicked()
 
 void Widget::on_pushButton_ShowToast_clicked()
 {
-    static Toast toast("提示：这是一个会自动消失，且没有焦点的窗口");
+    static Toast toast("提示：这是一个会自动消失，且没有焦点的窗口", this);
     toast.start();
 }
