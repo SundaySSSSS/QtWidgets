@@ -19,6 +19,8 @@ private slots:
     void on_pushButton_ShowRangeSelectWidget_clicked();
     void on_pushButton_showIPAddressWidget_clicked();
 
+    void on_pushButton_ShowToast_clicked();
+
 private:
     Ui::Widget *ui;
 };

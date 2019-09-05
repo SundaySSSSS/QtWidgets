@@ -17,13 +17,15 @@ SOURCES += main.cpp\
     RangeSelectWidget/RangeSelectTestWidget.cpp \
     RangeSelectWidget/RangeSelectWidget.cpp \
     IPAddressWidget/IPAddressWidget.cpp \
-    IPAddressWidget/IPAddressTest.cpp
+    IPAddressWidget/IPAddressTest.cpp \
+    ToastWidget/Toast.cpp
 
 HEADERS  += widget.h \
     RangeSelectWidget/RangeSelectTestWidget.h \
     RangeSelectWidget/RangeSelectWidget.h \
     IPAddressWidget/IPAddressWidget.h \
-    IPAddressWidget/IPAddressTest.h
+    IPAddressWidget/IPAddressTest.h \
+    ToastWidget/Toast.h
 
 FORMS    += widget.ui \
     RangeSelectWidget/RangeSelectTestWidget.ui
